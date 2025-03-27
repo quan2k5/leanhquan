@@ -6,7 +6,7 @@ public class Customer implements IApp {
     private int id;
     private String name;
     private Optional<String> email;
-    public Customer() {
+    public Customer(String name, Optional<String> email) {
         this.id = ++count;
         this.name = name;
         this.email = email;

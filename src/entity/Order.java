@@ -18,7 +18,6 @@ public class Order implements IApp {
         this.status = status;
     }
     public Order() {
-
     }
     public int getId() {
         return id;
